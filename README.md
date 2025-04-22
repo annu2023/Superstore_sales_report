@@ -130,6 +130,10 @@ Incorporated data analysis techniques , specializing , in time series analysis ,
     Designed for executive-level consumption and actionable insights.
 
 ---
+## 📁 File
+
+- `Sales_Report.pbix` – Main Power BI report
+- `Sales_Report.pdf` – Exported summary of the dashboard
 
 ## 📥 How to Use
 
