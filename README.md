@@ -36,6 +36,17 @@ This repository contains a comprehensive Power BI dashboard designed to analyze 
 - Data source (not included): Excel/CSV
 
 ---
+## 📐 DAX Formulas Used
+
+Below are the key DAX measures created to support the visuals and KPIs in this Power BI dashboard:
+
+Average Delivery Days
+
+Average Delivery Days = AVERAGE('Sales'[Delivery Days])
+
+Sales Forecast Table
+
+SalesForecast = SUMMARIZE(SuperStore_Sales_Dataset , SuperStore_Sales_Dataset[Order Date] , "Total Sales" , SUM('SuperStore_Sales_Dataset'[Sales]))
 
 ## 💡 Insights & Learnings
 
